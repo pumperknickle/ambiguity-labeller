@@ -1,0 +1,34 @@
+<View>
+  <Text name="text" value="$text" />
+ <Header value="Spanned Ambiguities" />
+ <Labels name="Ambiguity" toName="text">
+    <Label value="Indefinite Article" background="red"/>
+    <Label value="Vague Terms" background="darkorange"/>
+    <Label value="Escape Clause" background="orange"/>
+    <Label value="Open-Ended Clause" background="green"/>
+    <Label value="Infinitive" background="darkblue"/>
+    <Label value="Not" background="blue"/>
+    <Label value="Oblique" background="purple"/>
+    <Label value="Combinator" background="#842"/>
+    <Label value="Pronoun" background="#428"/>
+    <Label value="Parantheses" background="#482"/>
+    <Label value="Bracket" background="#121"/>
+    <Label value="Absolutes" background="#353"/>
+    <Label value="Indefinite Temporals" background="#532"/>
+    <Label value="Vague Quantification" background="#275"/>
+    <Label value="Vague Universals" background="#953"/>
+    <Label value="No Value Range" background="#624"/>
+    <Label value="Missing Unit" background="#236"/>
+    <Label value="Definition Needed" background="#931"/>
+  </Labels>
+  <Choices name="sentiment" toName="text" choice="multiple">
+    <View style="display: flex; justify-content: space-between">
+      <View style="width: 50%">
+        <Header value="Sentence Ambiguities" />
+        <Choice value="Multiple Sentences"/>
+    	<Choice value="Passive Voice"/>
+      </View>
+    </View>
+  </Choices>
+
+</View>
