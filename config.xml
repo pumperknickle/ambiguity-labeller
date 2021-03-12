@@ -3,7 +3,7 @@
  <Header value="Spanned Ambiguities" />
  <Labels name="Ambiguity" toName="text">
     <Label value="Indefinite Article" background="red"/>
-    <Label value="Vague Terms" background="darkorange"/>
+    <Label value="Vague Term" background="darkorange"/>
     <Label value="Escape Clause" background="orange"/>
     <Label value="Open-Ended Clause" background="green"/>
     <Label value="Infinitive" background="darkblue"/>
@@ -13,10 +13,10 @@
     <Label value="Pronoun" background="#428"/>
     <Label value="Parantheses" background="#482"/>
     <Label value="Bracket" background="#121"/>
-    <Label value="Absolutes" background="#353"/>
-    <Label value="Indefinite Temporals" background="#532"/>
+    <Label value="Absolute" background="#353"/>
+    <Label value="Indefinite Temporal" background="#532"/>
     <Label value="Vague Quantification" background="#275"/>
-    <Label value="Vague Universals" background="#953"/>
+    <Label value="Vague Universal" background="#953"/>
     <Label value="No Value Range" background="#624"/>
     <Label value="Missing Unit" background="#236"/>
     <Label value="Definition Needed" background="#931"/>
